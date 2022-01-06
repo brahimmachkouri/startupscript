@@ -3,31 +3,14 @@ Try
 $chocoapps = @(
     	"7zip.install",
         "dotnetfx",
-    	#"adobeshockwaveplayer",
     	"ccleaner",
     	"dellcommandupdate", 
     	"filezilla", 
     	"firefox", 
-        #"ublockorigin-firefox"
-    	#"flashplayeractivex",
-    	#"flashplayerplugin", 
     	"foxitreader", 
-    	"gimp", 
-    	"git", 
-    	"googlechrome",
-        "ublockorigin-chrome",
-    	"libreoffice-fresh", 
     	"pdfcreator", 
-    	"quicktime",
-    	"sublimetext3",
-    	"totalcommander",
-    	"vlc",
-    	"vscode",
-        "office2019",
-        "fusion-inventory",
-        "laps-urca",
-        "insight-student-urca"
-        # "aimp",
+    	"sublimetext4",
+    	"totalcommander"
 )
 cinst -s chocosia -y Powershell | Out-Null 
 #dependency for dell command update
